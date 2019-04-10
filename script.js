@@ -1,27 +1,19 @@
 /*
-var score=10;
-if(true)
-{
-    var score=20;
-}
-console.log(score);
+const TEAM_QODE_SCORE=3;
+TEAM_QODE_SCORE=4
+console.log(TEAM_QODE_SCORE);
 */
 
 /*
-var score=10;
-if(true)
-{
-    let score=20;
-}
-console.log(score);
+const DEVELOPER={name:"Anil",age:31}
+console.log("Before",DEVELOPER);
+DEVELOPER.age=30
+console.log("After",DEVELOPER);
 */
 
-/*
-if(true)
-{
-    var team1Score=10;
-    let team2Score=20;
-}
-console.log(team1Score);
-console.log(team2Score);
+/* 
+const DEVELOPERS = ["Anil","Kunwar","Narayan"];
+console.log("Before",DEVELOPERS);
+DEVELOPERS.push("Rabi");
+console.log("Before",DEVELOPERS); 
 */
