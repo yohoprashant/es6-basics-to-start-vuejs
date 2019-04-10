@@ -1,4 +1,9 @@
-# const
+# Template literals
 
 
-There is another way to declare block-scoped variables. With const, you declare a read-only reference to a value. You must assign a variable directly. If you try to change the variable or if you don’t a set a value immediately, then you’ll get an error.
+Template literals use backticks (``) instead of double or single quotes to define a string.
+
+Template literals allow us to do two super-useful things in Vue.js:
+
+-Multi-line strings (great for component templates)
+-Embedded expressions (great for computed properties)
