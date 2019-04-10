@@ -1,19 +1,10 @@
-/*
-const TEAM_QODE_SCORE=3;
-TEAM_QODE_SCORE=4
-console.log(TEAM_QODE_SCORE);
-*/
+let name = 'Sujan',
+  apples = 5,
+  pears = 7,
+  bananas = function() { return 3; }
 
-/*
-const DEVELOPER={name:"Anil",age:31}
-console.log("Before",DEVELOPER);
-DEVELOPER.age=30
-console.log("After",DEVELOPER);
-*/
+console.log(`This is ${name}.`);
 
-/* 
-const DEVELOPERS = ["Anil","Kunwar","Narayan"];
-console.log("Before",DEVELOPERS);
-DEVELOPERS.push("Rabi");
-console.log("Before",DEVELOPERS); 
-*/
+console.log(`He carries ${apples} apples,
+           ${pears} pears,
+           and ${bananas()} bananas.`); 
