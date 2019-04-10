@@ -1,11 +1,4 @@
-# ES6 features that you'll use on a daily basis with Vue. 
+# let
 
 
-ECMAScript 2015 (aka ES6) is the current specification of the JavaScript language. With above examples you are going to learn few ES6 basics features that is going to help you start Vuejs. Topics on which we are writing examples are:
-- Let & Const
-- Template Literals
-- Modules
-- Destructuring and spread syntax
-- Arrow functions
-- Promises
-- Array Functions(loop)
+You’re used to declaring variables using var. You can now use let as well. The subtle difference lies in scope. While var results in a variable with the surrounding function as its scope, the scope of a variable declared using let is only the block it is in. 
