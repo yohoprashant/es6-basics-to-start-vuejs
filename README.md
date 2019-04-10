@@ -7,5 +7,6 @@ How do you load a JavaScript variable, function, class and object from one file 
 Modules offer two key benefits:
 - We can split our JavaScript app up into multiple files
 - We can make certain code reusable across projects
-- The naming of import is completely independent in default export and we can use any name we like.
+
+Note: The naming of import is completely independent in default export and we can use any name we like.
 
