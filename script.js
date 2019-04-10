@@ -1,10 +1,5 @@
-let name = 'Sujan',
-  apples = 5,
-  pears = 7,
-  bananas = function() { return 3; }
+/* import { sum, pi } from "./file1.js";
+console.log('2π = ' + sum(pi, pi)); */
 
-console.log(`This is ${name}.`);
-
-console.log(`He carries ${apples} apples,
-           ${pears} pears,
-           and ${bananas()} bananas.`); 
+/* import anything from "./file2.js"
+console.log(anything); */
