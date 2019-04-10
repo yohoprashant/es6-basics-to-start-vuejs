@@ -17,7 +17,7 @@ ECMAScript 2015 (aka ES6) is the current specification of the JavaScript languag
 [Const]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH2-Const>
 [Template Literals]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH3-Template-Literals>
 [Modules]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH4-Modules>
-[Destructuring and spread syntax]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH5-Destructuring-Assignment>
+[Destructuring Assignment]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH5-Destructuring-Assignment>
 [Spread Syntax]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH6-Spread-Syntax>
 [Arrow functions]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH7-Arrow-Functions>
 [Promises]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH8-Promises>
