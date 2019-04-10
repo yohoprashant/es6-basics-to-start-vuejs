@@ -1,9 +1,11 @@
-# Template literals
+# Modules
 
 
-Template literals use backticks (``) instead of double or single quotes to define a string.
+How do you load a JavaScript variable, function, class and object from one file into another? There was no native way to do it pre-ES6. Using JavaScript modules, we can do it with export and import syntax.
 
-Template literals allow us to do two super-useful things in Vue.js:
 
--Multi-line strings (great for component templates)
--Embedded expressions (great for computed properties)
+Modules offer two key benefits:
+- We can split our JavaScript app up into multiple files
+- We can make certain code reusable across projects
+- The naming of import is completely independent in default export and we can use any name we like.
+
