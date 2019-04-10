@@ -2,10 +2,14 @@
 
 
 ECMAScript 2015 (aka ES6) is the current specification of the JavaScript language. With above examples you are going to learn few ES6 basics features that is going to help you start Vuejs. Topics on which we are writing examples are:
-- Let & Const
+- [Let]
+- Const
 - Template Literals
 - Modules
 - Destructuring and spread syntax
 - Arrow functions
 - Promises
 - Array Functions(loop)
+
+
+[Let]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH1-Let>
