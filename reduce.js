@@ -70,10 +70,75 @@ console.log(totalLikes);
  */
 
  //Putting It Together: Map, Filter, Reduce, and Chainability
-//total likes from weekend
 
-let weekendTotalLikes = faceBookPosts
+
+ //total likes from weekend
+
+/* let weekendTotalLikes = faceBookPosts
                         .filter(faceBookPost => faceBookPost.day=="Saturday" || faceBookPost.day=="Sunday")
                         .map(filteredPosts=>filteredPosts.likes)
                         .reduce((prev,curr)=> prev+curr);
-console.log(weekendTotalLikes);
+console.log(weekendTotalLikes); */
+
+
+//Let's say I want to do the following:
+
+//1. Collect two days' worth of tasks.
+//2. Convert the task durations to hours, instead of minutes.
+//3. Filter out everything that took two hours or more.
+//4. Sum it all up.
+//5. Multiply the result by a per-hour rate for billing.
+//6. Output a formatted dollar amount.
+
+var monday = [
+    {
+        'name'     : 'Write a tutorial',
+        'duration' : 180
+    },
+    {
+        'name'     : 'Some web development',
+        'duration' : 120
+    }
+];
+
+var tuesday = [
+    {
+        'name'     : 'Keep writing that tutorial',
+        'duration' : 240
+    },
+    {
+        'name'     : 'Some more web development',
+        'duration' : 180
+    },
+    {
+        'name'     : 'A whole lot of nothing',
+        'duration'  : 240
+    }
+];
+ 
+var tasks = [monday, tuesday];
+
+var result = tasks.reduce(function (accumulator, current) {
+    return accumulator.concat(current);
+})
+.map(function (task) {
+    return (task.duration / 60);
+})
+.filter(function (duration) {
+    return duration >= 2;
+})
+.map(function (duration) {
+    return duration * 25;
+})
+.reduce(function (accumulator, current) {
+    return [(+accumulator) + (+current)];
+})
+.map(function (dollar_amount) {
+    return '$' + dollar_amount.toFixed(2);
+})
+.reduce(function (formatted_dollar_amount) {
+    return formatted_dollar_amount;
+});
+;
+console.log(result);
+
