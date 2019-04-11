@@ -12,25 +12,29 @@ var faceBookPosts = [
   
   var popularPosts = [];
   
-  /* for (var i = 0, max = faceBookPosts.length; i < max; i++) {
+  for (var i = 0, max = faceBookPosts.length; i < max; i++) {
     if(faceBookPosts[i].likes>=500)
         popularPosts.push(faceBookPosts[i]);
-  } */
+  }
+  console.log('Result Using For:');
+  console.log(popularPosts);
   
-  /* 
+  
   faceBookPosts.forEach(faceBookPost=>{
     if(faceBookPost.likes>=500)
         popularPosts.push(faceBookPost);
   }); 
-  */
+  console.log('Result Using ForEach:');
+  console.log(popularPosts);
 
-/* 
+
   //with filter
 
- var popularPosts = faceBookPosts.filter( (post) => post.likes>=500 ); 
-*/
+ var popularFilterPosts = faceBookPosts.filter( (post) => post.likes>=500 ); 
+ console.log('Result Using For:');
+ console.log(popularFilterPosts);
 
-/* 
+
 //Implementation
 var filter = function (array, callback) {
  
@@ -45,9 +49,9 @@ var filter = function (array, callback) {
     return filtered_array;
  
 };
-var popularPosts = filter(faceBookPosts, function (post) {
+var popularTestPosts = filter(faceBookPosts, function (post) {
     return post.likes>=500;
   }); 
-*/
-console.log(popularPosts);
+console.log('How the Filter works:');
+console.log(popularTestPosts);
  
