@@ -10,7 +10,7 @@ ECMAScript 2015 (aka ES6) is the current specification of the JavaScript languag
 - [Spread Syntax]
 - [Arrow functions]
 - [Promises]
-- Array Functions(loop)
+- [Array Functions(loop)]
 
 
 [Let]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH1-Let>
@@ -21,3 +21,4 @@ ECMAScript 2015 (aka ES6) is the current specification of the JavaScript languag
 [Spread Syntax]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH6-Spread-Syntax>
 [Arrow functions]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH7-Arrow-Functions>
 [Promises]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH8-Promises>
+[Array Functions(loop)]: <https://github.com/yohoprashant/es6-basics-to-start-vuejs/tree/CH9-Array-Functions>
